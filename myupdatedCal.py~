@@ -35,7 +35,7 @@ class Calculator(Frame):
       def turnoff(self, *args):
            self.quit()
       def clearall(self, *args):
-          self.current=" "
+          self.current=""
           self.display.component('text').delete(1.0, END)
       def doEnter(self, *args):
           self.display.insert(END, '\n')
